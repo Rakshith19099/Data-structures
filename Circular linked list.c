@@ -45,7 +45,6 @@ void main()
 			break;
 			
 		default:
-			printf("In circular linked lists, we need to link the first node with the last node by storing the address of the first node in the last node. \nAdvantages of circularly linked list: \n1. For problems which requires circular data structures, circular linked lists would fit in very naturally. \n2. We can traverse through the entire list starting from any node. \nDisadvantages: \n1. Inserting a node at the beginning is harder. \n2. Finding the last node is harder because there is not NULL marking.");	
 			exit(1);
 			break;				
 	}
